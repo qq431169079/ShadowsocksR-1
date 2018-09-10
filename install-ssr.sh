@@ -4,7 +4,7 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6,7, Debian, Ubuntu                  #
 #   Description: One click Install ShadowsocksR Server            #
-#   Author: Teddysun <i@teddysun.com>                             #
+#   Author: TomTSANG <uwtom@icloud.com>                             #
 #   Thanks: @breakwa11 <https://twitter.com/breakwa11>            #
 #   Intro:  https://shadowsocks.be/9.html                         #
 #=================================================================#
@@ -14,15 +14,15 @@ echo
 echo "#############################################################"
 echo "# One click Install ShadowsocksR Server                     #"
 echo "# Intro: https://shadowsocks.be/9.html                      #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
+echo "# Author: TomTSANG <uwtom@icloud.com>                         #"
 echo "# Github: https://github.com/shadowsocksr/shadowsocksr      #"
 echo "#############################################################"
 echo
 
 libsodium_file="libsodium-1.0.16"
-libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.16/libsodium-1.0.16.tar.gz"
+libsodium_url="https://github.com/uwtom/ShadowsocksR/raw/master/libsodium-1.0.16.tar"
 shadowsocks_r_file="shadowsocksr-3.2.2"
-shadowsocks_r_url="https://github.com/shadowsocksrr/shadowsocksr/archive/3.2.2.tar.gz"
+shadowsocks_r_url="https://github.com/uwtom/ShadowsocksR/raw/master/shadowsocksr-3.2.2.tar.gz"
 
 #Current folder
 cur_dir=`pwd`
@@ -195,8 +195,8 @@ pre_install(){
     fi
     # Set ShadowsocksR config password
     echo "Please enter password for ShadowsocksR:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: tom@shadowsocks):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="tom@shadowsocks"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -334,12 +334,12 @@ download_files(){
     fi
     # Download ShadowsocksR init script
     if check_sys packageManager yum; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/uwtom/ShadowsocksR/master/shadowsocksR -O /etc/init.d/shadowsocks; then
             echo -e "[${red}Error${plain}] Failed to download ShadowsocksR chkconfig file!"
             exit 1
         fi
     elif check_sys packageManager apt; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/uwtom/ShadowsocksR/master/shadowsocksR-debian -O /etc/init.d/shadowsocks; then
             echo -e "[${red}Error${plain}] Failed to download ShadowsocksR chkconfig file!"
             exit 1
         fi
