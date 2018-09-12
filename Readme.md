@@ -14,11 +14,11 @@ The source codes of this shell script were written by breakwa11 and updated by t
 ## 
 ## 使用方法：
 使用root用户登录，运行以下命令：
-## 
+<br>
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
-## 
+<br>
 chmod +x shadowsocksR.sh
-## 
+<br>
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ## 
 ## 卸载方法：
