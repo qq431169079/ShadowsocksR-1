@@ -36,4 +36,4 @@ The source codes of this shell script were written by breakwa11 and updated by t
 代码安装目录：/usr/local/shadowsocks
 
 ### 参考链接：
-https://github.com/uwtom/SSR_Server_Install/wiki/ShadowsocksR-Server-Setup
+https://github.com/uwtom/SSR_Server_Install/wiki/ShadowsocksR_Wiki
