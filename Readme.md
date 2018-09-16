@@ -35,11 +35,5 @@ The source codes of this shell script were written by breakwa11 and updated by t
 日志文件路径：/var/log/shadowsocks.log <br>
 代码安装目录：/usr/local/shadowsocks
 
-### 如果你想修改配置文件，请参考：
-https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/Server-Setup <br>
-https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md <br>
-https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/config.json
-
 ### 参考链接：
-https://github.com/shadowsocksr-backup/shadowsocksr
-
+https://github.com/uwtom/SSR_Server_Install/wiki/ShadowsocksR-Server-Setup
