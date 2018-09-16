@@ -14,7 +14,7 @@ The source codes of this shell script were written by breakwa11 and updated by t
 ### 使用方法：
 使用root用户登录，运行以下命令：(本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。)
 <br>
->>wget --no-check-certificate https://raw.githubusercontent.com/uwtom/SSR_Server_Inatall/master/shadowsocksR.sh <br>
+>>wget --no-check-certificate https://raw.githubusercontent.com/uwtom/ShadowsocksR/master/shadowsocksR.sh <br>
 >>chmod +x shadowsocksR.sh <br>
 >>./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 
@@ -36,4 +36,4 @@ The source codes of this shell script were written by breakwa11 and updated by t
 代码安装目录：/usr/local/shadowsocks
 
 ### 参考链接：
-https://github.com/uwtom/SSR_Server_Inatall/wiki/ShadowsocksR_Wiki
+https://github.com/uwtom/ShadowsocksR/wiki/ShadowsocksR_Wiki
