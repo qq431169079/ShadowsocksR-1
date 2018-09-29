@@ -4,7 +4,7 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6,7, Debian, Ubuntu                  #
 #   Description: One click Install ShadowsocksR Server            #
-#   Author: TomTSANG <uwtom@icloud.com>                             #
+#   Author: Teddysun <i@teddysun.com>                             #
 #   Thanks: @breakwa11 <https://twitter.com/breakwa11>            #
 #   Intro:  https://shadowsocks.be/9.html                         #
 #=================================================================#
@@ -14,7 +14,7 @@ echo
 echo "#############################################################"
 echo "# One click Install ShadowsocksR Server                     #"
 echo "# Intro: https://shadowsocks.be/9.html                      #"
-echo "# Author: TomTSANG <uwtom@icloud.com>                         #"
+echo "# Author: Teddysun <i@teddysun.com>                         #"
 echo "# Github: https://github.com/shadowsocksr/shadowsocksr      #"
 echo "#############################################################"
 echo
@@ -52,7 +52,7 @@ rc4-md5
 protocols=(
 origin
 verify_deflate
-auth_sha1_v4
+auth_sha1_v4⼁
 auth_sha1_v4_compatible
 auth_aes128_md5
 auth_aes128_sha1
