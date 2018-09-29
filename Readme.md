@@ -1,7 +1,7 @@
 ## ShadowsockR Server Installation
 This is the installation shell script of ShadowsocksR for Linux server, which are VPS that running by host suppliers, or physical server by someone's own, etc. <br>
 The source codes of this shell script were written by breakwa11 and updated by teddysun.
-
+![](https://raw.githubusercontent.com/uwtom/ShadowsocksR/master/shadowsocks.png)
 ### ShadowsocksR一键安装脚本
 本脚本适用环境：<br>
 系统支持：CentOS，Debian，Ubuntu <br>
